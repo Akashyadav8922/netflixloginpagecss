@@ -1,0 +1,108 @@
+.login{
+    
+   
+    height: 100vh;
+    background-image:url(net.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    
+
+}
+
+.sub{
+   
+    width: 400px;
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+     border: 300px; 
+     border-radius: 10px;
+     background-color:  rgba(0, 0, 0, 0.752);
+     
+     backdrop-filter: blur(10px);
+    padding-left: 50px;
+    /* background-color:black; */
+    
+}
+
+.sa{
+    
+     
+     color: white;
+     font-size:larger;
+     
+}
+.num{
+    background-color:  rgba(0, 0, 0, 0.533);
+    
+
+     font-size:large;
+     border: 10px;
+     border-width: 100px;
+     height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    color: white;
+}
+.pass{
+    background-color:  rgba(0, 0, 0, 0.533);
+    font-size:large;
+     border: 10px;
+     border-width: 400px;
+     width: 250px;
+     height: 40px;
+     border-radius: 5px;
+     color: white;
+}
+.bu{
+    color:white;
+    background-color: red;
+    font-size:large;
+     border: 10px;
+     border-width: 400px;
+     height: 40px;
+     width: 250px;
+     border-radius: 5px;
+     
+}
+.bu:hover{
+      background-color: lightcoral;
+}
+.o{
+    padding-right: 100px;
+    padding-left: 100px;
+    color: white;
+}
+.use{
+     background-color:  rgba(0, 0, 0, 0.533);
+     font-size:large;
+     border: 10px;
+     border-width: 400px;
+     width: 250px;
+     height: 40px;
+     border-radius: 5px;
+     color: white;
+
+
+
+}
+.forg{
+      color: white;
+      padding-right: 70px;
+      padding-left: 70px;
+}
+.rem{
+    color: white;
+    size: 40px;
+}
+.new{
+    color: white;
+}
+.last{
+    color:lightslategrey;
+    text-decoration-style: bold;
+}
