@@ -1,2 +1,37 @@
 # netflixloginpagecss
  created a Netflix login page using HTML and CSS 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="netflix1.css"/>
+    <title>Netflix</title>
+</head>
+<body>
+     
+        <div class="login">
+            
+            <div class="sub">
+                <form>
+                    <h3 class="sa">Sign In </h3> <br><br>
+                <input type="number,email" placeholder="Email or Mobile Number" class="num"><br><br>
+                <input type="password" placeholder="Password" class="pass"><br><br>
+                <button type="button" class="bu">Sign In</button><br>
+                <h4 class="o">OR</h4>
+                <button type="button" class="use">Use a sign-in code</button><br><br>
+                <a role="link" data-uia="login-help-link" href="/LoginHelp" class="forg">Forgot password?</a><br><br>
+                <h4 class="rem"><input type="checkbox"> Remember me</h4>
+                <P class="new">New to Netflix? <a href="www.netflix.com" class="new">Sign up now.</a></P>
+                <p class="last">This page is protected by Google reCAPTCHA to ensure you're not a bot.</p>
+
+                </form>
+            </div>
+            
+         </div>
+         
+       
+    
+
+</body>
+</html>
